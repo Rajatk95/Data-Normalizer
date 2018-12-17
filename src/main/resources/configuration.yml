@@ -1,0 +1,11 @@
+# Details of a user
+---
+folderPath: "D:/Near-Assignment/del/"
+outputLocation: "D:/Near-Assignment/checkpoint/"
+host: localhost
+port: 8080
+writeToHdfsInterval: 5
+minBatchSize: 10
+fileTypes:
+  - CSV
+  - AVRO
