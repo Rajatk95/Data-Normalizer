@@ -1,0 +1,11 @@
+# Edit folderPath - dir path where you want to monitor, outputLocation - dir path where normalized output should be saved in CSV format.
+---
+folderPath: "D:/Streaming/data/"
+outputLocation: "D:/Streaming/normalized/"
+host: localhost
+port: 8080
+writeToHdfsInterval: 5
+minBatchSize: 10
+fileTypes:
+  - CSV
+  - AVRO
