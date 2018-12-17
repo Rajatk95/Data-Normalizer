@@ -44,6 +44,8 @@ Steps to follow
     into a new CSV file at the output location specified in the
     configuration.
 
+-   Files in Batch is only written when number of records reach above threshold value (specified in configuration file as minBatchSize).
+
 Schema
 ---------------
 The Schema to which should be normalized is defined in class OutputDataFormat.java.
