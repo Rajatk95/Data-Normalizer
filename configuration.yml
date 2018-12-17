@@ -1,4 +1,13 @@
-# Edit folderPath - dir path where you want to monitor, outputLocation - dir path where normalized output should be saved in CSV format.
+# Description
+#folderPath - dir path where you want to monitor.
+#outputLocation - dir path where normalized output should be saved in CSV format.
+#host - will be used when monitoring over socket - not yet implemented.
+#port - will be used when monitoring over socket - not yet implemented.
+#writeToHdfsInterval - Interval in which data to be written to filesystem.
+#minBatchSize - minimum batch size required for writing data to filesystem.
+
+#NOTE - Add trailing file seperator at the end of path, as of now this is not handled in the code.
+
 ---
 folderPath: "D:/Streaming/data/"
 outputLocation: "D:/Streaming/normalized/"
