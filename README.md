@@ -43,3 +43,17 @@ Steps to follow
     timer task service is created which periodically transfer the data
     into a new CSV file at the output location specified in the
     configuration.
+
+Schema
+---------------
+The Schema to which should be normalized is defined in class OutputDataFormat.java.
+
+Pending Task
+---------------
+1.	Implement Normalization module for Avro and Parquet data.
+2.	Define Schema in configuration or json file instead of a class.
+3.	Test cases for directory monitoring and CSV file creation.
+4.	File handling needs to be improved – handle file separator.
+5.	Existing bugs needs to be fixed.
+6.	Put data to HDFS instead of local file system.
+7.	Performance improvement while normalization by implementing a multi-threading in HandleDataArrival.java class
