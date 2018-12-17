@@ -12,7 +12,7 @@ Steps to follow
 
 2.  Open configuration.yml.
 
-> ![](media/image1.png){width="6.375in" height="3.2708333333333335in"}
+> ![](https://4.bp.blogspot.com/-zUPyUyQvCqI/XBex08tqB2I/AAAAAAAAJv0/GzQE7JFkgAcoxLVuDzy_X6csLN7PPS4qQCLcBGAs/s1600/1.png){width="6.375in" height="3.2708333333333335in"}
 
 3.  Modify --
 
@@ -31,7 +31,7 @@ Steps to follow
 >
 > The jar accepts one parameter i.e. the configuration.yml file.
 
-![](media/image2.png){width="6.291666666666667in"
+![](https://1.bp.blogspot.com/-cPpZMKLrZ2w/XBex1drk79I/AAAAAAAAJv4/B_YOyVwGIRYLEoFE077TcJlA26cUaIvaQCLcBGAs/s1600/2.png){width="6.291666666666667in"
 height="2.657638888888889in"}
 
 -   Once the utility starts, it will create a service which will monitor
